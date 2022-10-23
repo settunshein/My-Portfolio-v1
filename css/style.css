@@ -116,69 +116,6 @@ img {
     font-size: 13.5px;
 }
 
-/* Styling Section About */
-.sec-about {
-    padding-top: 125px;
-    padding-bottom: 125px;
-}
-
-.sec-about .contentBx h4 {
-    letter-spacing: 5px;
-    font-size: 28px;
-}
-
-.sec-about .contentBx .textBx {
-    line-height: 1.75;
-    font-size: 14px;
-}
-
-.sec-about .knowledgeBx {
-    margin-top: 55px;
-}
-
-.sec-about .knowledgeBx .headingBx p {
-    font-size: 14px;
-}
-
-.sec-about .contentBx .blockquote-footer{
-    color: var(--theme-secondary);
-}
-
-.sec-about .knowledgeBx .headingBx p::after {
-    display: inline-block;
-    width: 45% !important;
-    height: .5px;
-    margin: 5px 10px 5px 8px;
-    background-color: var(--theme-secondary);
-    content: "";
-}
-
-.sec-about .knowledgeBx .iconBx .dev-icon {
-    line-height: 0;
-    margin-right: 8px;
-    font-size: 29.5px;
-    vertical-align: middle;
-}
-
-.sec-about .knowledgeBx .iconBx .devicon-vuejs-plain,
-.sec-about .knowledgeBx .iconBx .devicon-jquery-plain-wordmark,
-.sec-about .knowledgeBx .iconBx .devicon-github-original-wordmark {
-    font-size: 32px;
-}
-
-.sec-about .knowledgeBx .iconBx .devicon-bootstrap-plain,
-.sec-about .knowledgeBx .iconBx .devicon-tailwindcss-plain {
-    font-size: 36px;
-}
-
-.sec-about .knowledgeBx .iconBx .devicon-php-plain {
-    font-size: 38px;
-}
-
-.sec-about .knowledgeBx .iconBx .devicon-mysql-plain-wordmark {
-    font-size: 52px;
-}
-
 /* Styling Navbar */
 .navbar {
     background-color: var(--theme-dark);
@@ -237,6 +174,69 @@ img {
 .sec-home p {
     line-height: 26px;
     letter-spacing: .5px;
+}
+
+/* Styling Section About */
+.sec-about {
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.sec-about .contentBx h4 {
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+.sec-about .contentBx .textBx {
+    line-height: 1.75;
+    font-size: 13.5px;
+}
+
+.sec-about .knowledgeBx {
+    margin-top: 55px;
+}
+
+.sec-about .knowledgeBx .headingBx p {
+    font-size: 13.5px;
+}
+
+.sec-about .contentBx .blockquote-footer{
+    color: var(--theme-secondary);
+}
+
+.sec-about .knowledgeBx .headingBx p::after {
+    display: inline-block;
+    width: 45% !important;
+    height: .5px;
+    margin: 5px 10px 5px 8px;
+    background-color: var(--theme-secondary);
+    content: "";
+}
+
+.sec-about .knowledgeBx .iconBx .dev-icon {
+    line-height: 0;
+    margin-right: 8px;
+    font-size: 29.5px;
+    vertical-align: middle;
+}
+
+.sec-about .knowledgeBx .iconBx .devicon-vuejs-plain,
+.sec-about .knowledgeBx .iconBx .devicon-jquery-plain-wordmark,
+.sec-about .knowledgeBx .iconBx .devicon-github-original-wordmark {
+    font-size: 32px;
+}
+
+.sec-about .knowledgeBx .iconBx .devicon-bootstrap-plain,
+.sec-about .knowledgeBx .iconBx .devicon-tailwindcss-plain {
+    font-size: 36px;
+}
+
+.sec-about .knowledgeBx .iconBx .devicon-php-plain {
+    font-size: 38px;
+}
+
+.sec-about .knowledgeBx .iconBx .devicon-mysql-plain-wordmark {
+    font-size: 52px;
 }
 
 /* Syling Section Services */
@@ -301,13 +301,13 @@ img {
 
 /* Styling Section Portfolio */
 .sec-portfolio{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 
 .sec-portfolio .nav-pills-blk{
-    margin-top: 14px;
-    margin-bottom: 34px;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .sec-portfolio .nav-pills .nav-item:not(:last-child){
